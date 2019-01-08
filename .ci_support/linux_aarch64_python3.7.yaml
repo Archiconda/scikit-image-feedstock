@@ -1,0 +1,15 @@
+BUILD: aarch64-conda_cos7-linux-gnu
+c_compiler:
+- gcc
+channel_sources:
+- archiarm,
+channel_targets:
+- archiarm main
+cxx_compiler:
+- gxx
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- '3.7'
